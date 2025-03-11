@@ -12,14 +12,113 @@
       <h1>Epicode - Il blog dei developer</h1>
     </header>
 
+    <h2>Primi passi operativi per creare un modello di pagina HTML per un post. Scopri come iniziare in modo facile.</h2>
+
     <div class="container">
       <menu style="width: 384px"> Home </menu>
-    </div>
-    <div class="container1">
       <menu style="width: 384px"> Articoli</menu>
-    </div>
-    <div class="container2">
       <menu style="width: 384px"> Lavora con noi</menu>
+    </div>
+
+    <div>
+      <article>
+        La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le parti comuni da applicare a tutte le varie aree saranno quindi
+        suddivise in:
+        <ul>
+          <li>Contenuti di intestazione del tag &lt header &gt</li>
+          <li>Contenuti centrali variabili del tag &lt main &gt (corpo principale)</li>
+          <li>Contenuti di fine pagina comuni, da inserire nel tag &lt footer &gt</li>
+        </ul>
+
+        Formattazione del codice Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i CSS. Perciò i passi
+        saranno:
+
+        <ol>
+          <li>Progettare il markup assegnando ad ogni specifico testo il tag appropriato.</li>
+          <li>Scrivere ìHTML dai tag esterni a quelli interni e dall'alto verso il basso.</li>
+          <li>Applicare gli stili CSS</li>
+        </ol>
+        L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.
+
+        <table>
+          <caption>
+            Diffusione dei CSS
+          </caption>
+          <tr style="background-color: rgb(1, 224, 20)">
+            <th>Anno</th>
+            <th>% di utilizzo</th>
+            <th>Supporto browser</th>
+          </tr>
+          <tr>
+            <td>2000</td>
+            <td>20%</td>
+            <td>17%</td>
+          </tr>
+          <tr>
+            <td>2002</td>
+            <td>35%</td>
+            <td>22%</td>
+          </tr>
+          <tr>
+            <td>2004</td>
+            <td>45%</td>
+            <td>42%</td>
+          </tr>
+          <tr>
+            <td>2008</td>
+            <td>80%</td>
+            <td>51%</td>
+          </tr>
+          <tr>
+            <td>2012</td>
+            <td>100%</td>
+            <td>76%</td>
+          </tr>
+        </table>
+
+        Un test di validazione potrà essere fatto tramite <a href="https://google.it">il tool online</a> dedicato allo scopo. Una volta ottimizzato il tutto,
+        avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:
+      </article>
+
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/o6YtFK7QFBw?si=bC_EqVxKU-NQ9p1e"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <div class="box">
+      <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
+      <form action="">
+        <input type="email" placeholder="inserisci la tua email" />
+        <button type="submit">Iscriviti!</button>
+      </form>
+    </div>
+
+    <div>
+      <h4>Articoli correlati:</h4>
+      <p>
+        <div>
+        Validare il codice HTML Categoria: develop Data: 18-9-2020 </div>
+        <div>
+        Correggere la sintassi Categoria: develop Data: 16-9-2020</div> 
+        <div>
+        Meno Kb nella pagina Categoria:
+        ottimizzazione Data: 30-9-2020
+      </div>
+      </p>
+
+      <div>
+        <h5>Copyright e info</h5>
+        <p>Blog Epicode &copy; 2023
+          Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233.
+          <a href="info@epicode.school">info@epicode.school</a></p>
+      </div>
     </div>
   </body>
 </html>
