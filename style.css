@@ -1,5 +1,26 @@
-main {
+body {
+  background-color: rgb(182, 112, 247);
+}
+
+header {
+  display: flex;
+  height: 90px;
+  background-color: blueviolet;
+}
+
+img {
+  height: 75px;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+.container {
   display: flex;
   justify-content: center;
-  height: 100vh;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-left: 200px;
+  margin-bottom: 40px;
 }
